@@ -9,6 +9,7 @@ library(tidyverse)
 ```{r}
 trenn <- read_csv('Treening.csv')
 ggplot(data = trenn, aes(x = hours, y = loss))+
-  geom_point()
+  geom_point()+
+  geom_smooth()
 ```
 
