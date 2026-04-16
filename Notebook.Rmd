@@ -10,7 +10,7 @@ library(tidyverse)
 trenn <- read_csv('Treening.csv')
 ggplot(data = trenn, aes(x = hours, y = loss))+
   geom_point()+
-  geom_smooth(method = 'lm', formula = y ~ poly(x,3)) + 
+  geom_smooth(method = 'lm', formula = y ~ poly(x,3),se = F) + 
   theme_bw()
 ```
 
