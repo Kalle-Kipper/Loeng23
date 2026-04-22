@@ -4,7 +4,7 @@ title: "R Notebook"
 
 ```{r}
 library(tidyverse)
-library(broom)1
+library(broom)
 ```
 
 ```{r}
