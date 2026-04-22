@@ -14,6 +14,7 @@ ggplot(data = trenn, aes(x = hours, y = loss, color=prog))+
   geom_smooth(method="lm", formula=y~poly(x,2)) + 
   theme_bw()
 #asd
+#eee
 ```
 
 
